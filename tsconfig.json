@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {                            
+     "lib": ["dom", "dom.iterable", "esnext"], // entender que lida com dom...
+     "allowJs": true,                      // aceitar tanto ts quanto js            
+     "jsx": "react-jsx",                    // uso com jsx          
+     "noEmit": true,                        // caso buildar      
+     "moduleResolution": "node",             
+     "resolveJsonModule": true, //importar arquivos jsion
+     "isolatedModules": true,
+     "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                    
+    "skipLibCheck": true                                
+  },
+  "include": ["src"] //aonde ta o codigo da nossa aplicação
+}
